@@ -1,0 +1,334 @@
+a{color: #1d1d1d;
+  text-decoration: none;}
+  
+  /* ヘッダー */
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      z-index: 999;
+      background-color: white;
+      padding-left: 600px;
+      padding-right: 433px;
+  }
+  
+  .top-ul>ul{
+      display: flex;
+  }
+  
+  .top-ul{
+      margin-left: 200px;
+  
+  }
+  
+  .top-ul img{
+      padding-right: 10px;
+      margin-top: 10px;
+  }
+  
+  .top-midleft{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-left: 80px;
+  }
+  
+  .top-ul>ul>li{
+      padding-right: 40px;
+  }
+  
+  .top-left>ul{
+      display:flex;
+      justify-content: flex-end;
+      
+  }
+  .logo{
+      display: flex;
+  }
+  .logo1{
+      display: block;
+      margin: 0 auto;
+  }
+  .logo2{
+      display: block;
+      margin: 0 auto;
+  }
+  
+  
+  
+  /* ヘッダーの次のメニュー */
+  
+  #main-pic>ul{
+      display: flex;
+      justify-content: top;
+      align-items: top;
+      position: fixed;
+      width: 100%;
+      padding-top: 15px;
+      padding-left: 125px;
+      z-index: 998;
+      background-color: black;
+      opacity: 0.7;
+  }
+  
+  #main-pic img{
+      border-right: 1px solid white;
+      border-left: 1px solid white;
+  }
+  
+  #main-pic>ul>li{
+      border-right: 1px solid #000;
+      text-align: auto;
+  
+  }
+  
+  .menu{
+      display: inline-block;
+      height: 80px;
+      margin-bottom: 15px;
+      margin-bottom: 15px;
+      margin-top: 0px;
+      width:100%;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      margin-left: 20px;
+  }
+  
+  .menu img{
+      height: 100%;
+      width: 80%
+  }
+
+          /* スタジオヘッダー下 */
+
+          .studio_header2{
+            margin-left: 150px;
+            margin-top: 130px;
+            font-size: 15px;
+        }
+
+        .studio_page_tab{
+          color: #006ccc;
+        }
+
+
+/* 入会について */
+  
+.nyukai h1{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 50px;
+  }
+
+  .nyukai{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.nyukai>h1{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.nyukai>h1:before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: -30px;
+    width: 150px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.moneyline{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.step1{
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.taiken{
+  text-align: center;
+}
+
+.step2{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.tetsuzuki
+{
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+/* 体験・見学ページ */
+
+.taiken_main{
+    background-color: #DCDCDC;
+    border: solid 3px #b5b8cb;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .taiken_title h1{
+    font-size: 40px;
+    margin: 40px;
+  }
+
+  .taiken_title h2{
+    font-size: 25px;
+  }
+
+  .taiken_text1{
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .taiken_text2{
+    font-size: 15px;
+    color: #fa817d;
+  }
+
+  .taiken_title h3{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top: dotted 2px #b5b8cb;
+  }
+
+  .taiken_title h4{
+    padding-right: 300px;
+  }
+
+  .taiken_title h5{
+    margin-top: 60px;
+    font-size: 30px;
+    color: #fa817d;
+    padding-bottom: 40px;
+  }
+
+  .taiken_title h6{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top:solid 2px #b5b8cb; ;
+  }
+
+
+  .taiken_title2 h1{
+    margin: 40px;
+    font-size: 40px;
+  }
+
+  .taiken_title2 h2{
+    font-size: 25px;
+  }
+
+  .taiken2_text1{
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .taiken2_text2{
+    font-size: 15px;
+    color: #fa817d;
+  }
+
+  .taiken_title2 h3{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top: dotted 2px #b5b8cb;
+  }
+
+  .taiken_title2 h4{
+    padding-right: 300px;
+  }
+
+  .taiken{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .taiken_ryoukin{
+    margin-top: 7px;
+
+  }
+
+
+  /* サイトマップ */
+.sitemap{
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.site_about{
+  display: flex;
+  margin-top: 30px;
+}
+.sitemap h1{
+  margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.sitemenu{
+  padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.siteinfo{
+  padding-right: 100px;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.other>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.other{
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.sitemap>h2{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -50px;
+  margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+  display: flex;
+  margin-top: 50px ;
+  background-color: #808080;
+  padding-bottom: 50px;
+}
+
+.footer>.logo{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+ 

@@ -1,0 +1,417 @@
+a{color: #1d1d1d;
+    text-decoration: none;}
+    
+    /* ヘッダー */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        padding-left: 600px;
+        padding-right: 433px;
+    }
+    
+    .top-ul>ul{
+        display: flex;
+    }
+    
+    .top-ul{
+        margin-left: 200px;
+    
+    }
+    
+    .top-ul img{
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .top-midleft{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 80px;
+    }
+    
+    .top-ul>ul>li{
+        padding-right: 40px;
+    }
+    
+    .top-left>ul{
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo2{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    
+    /* ヘッダーの次のメニュー */
+    
+    #main-pic>ul{
+        display: flex;
+        justify-content: top;
+        align-items: top;
+        position: fixed;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 125px;
+        z-index: 998;
+        background-color: black;
+        opacity: 0.7;
+    }
+    
+    #main-pic img{
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+    
+    #main-pic>ul>li{
+        border-right: 1px solid #000;
+        text-align: auto;
+    
+    }
+    
+    .menu{
+        display: inline-block;
+        height: 80px;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        width:100%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    
+    .menu img{
+        height: 100%;
+        width: 80%
+    }
+
+
+        /* レッスントップ */
+        .lesson_top{
+            background-image: url(..//img/studio_all_mix.png);
+            height: 50vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: top;
+            align-items: top;
+            flex-direction: column;
+         }
+      
+         .lessontop_text{
+          text-align: center;
+          margin-top: 13%;
+          padding: 20px;
+          background: rgba(0, 0, 0, 0.6);
+         }
+      
+         .lessontop_text h1{
+          color: white;
+          font-size: 50px;
+         }
+         
+         .lessontop_text h2{
+          color: white;
+          font-size: 30px;
+          margin-top: 1%;
+         }
+
+
+        /* スタジオヘッダー下 */
+
+        .studio_header2{
+            margin-left: 150px;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .studio_page_tab{
+          color: #006ccc;
+        }
+
+        /* スタジオ　城山 */
+        .shiroyama_title{
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .shiroyama_title h1{
+            font-size: 30px;
+        }
+
+        .shiroyama_title > h1{
+            position: relative;
+            display: inline-block;
+            margin-bottom: 1em;
+        }
+
+        .shiroyama_title > h1:before{
+            content: "";
+            position: absolute;
+            display: inline-block;
+            left: 50%;
+            bottom: -30px;
+            width: 200px;
+            height: 5px;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: orange;
+            border-radius: 2px;
+        }
+
+        .shiroyama_text{
+            font-size: 25px;
+            margin-left: 150px;
+            margin-right: 150px;
+            margin-top: 50px;
+            line-height: 40px;
+        }
+
+        .shiroyama_photo{
+            text-align: center;
+        }
+
+        .photo{
+            font-size: 50px;
+            margin-top: 70px;
+            letter-spacing: 5px;
+        }
+
+        .photo_under{
+            margin-top: 10px;
+        }
+
+        .studio-pic{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        /* 開講クラス パート*/
+        .shiroyama_class{
+            background-color: #DCDCDC;
+            margin-top: 50px;
+        }
+
+        .shiroyama_class h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 30px;
+        }
+
+        .class-mat{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            padding-bottom: 100px;
+            
+        }
+
+
+        .shiro_map{
+            margin-left: 200px;
+        }
+        
+        .shiro_access{
+            display: flex;
+        }
+        .shiro_address{
+            font-size: 20px;
+            padding-left: 100px;
+        }
+
+        .shiro_address h1{
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        .text{
+            font-size:  30px;
+            margin-top: 10px;
+        }
+
+
+
+
+        /* アリーナダンス */
+        .arena_title{
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .arena_title h1{
+            font-size: 30px;
+        }
+
+        .arena_title > h1{
+            position: relative;
+            display: inline-block;
+            margin-bottom: 1em;
+        }
+
+        .arena_title > h1:before{
+            content: "";
+            position: absolute;
+            display: inline-block;
+            left: 50%;
+            bottom: -30px;
+            width: 200px;
+            height: 5px;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: orange;
+            border-radius: 2px;
+        }
+
+        .arena_text{
+            font-size: 25px;
+            margin-left: 150px;
+            margin-right: 150px;
+            margin-top: 50px;
+            line-height: 40px;
+        }
+
+        .arena_photo{
+            text-align: center;
+        }
+
+        .photo{
+            font-size: 50px;
+            margin-top: 70px;
+            letter-spacing: 5px;
+        }
+
+        .photo_under{
+            margin-top: 10px;
+        }
+
+        .studio2-pic{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .arena_class{
+            background-color: #DCDCDC;
+            margin-top: 50px;
+        }
+
+        .arena_class h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 30px;
+        }
+
+        .arena_class-mat>.upper{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        .arena_class-mat>.under{
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 100px;
+        }
+
+
+
+        .arena_map{
+            margin-left: 200px;
+        }
+
+        .arena_access{
+            display: flex;
+        }
+        .arena_address{
+            font-size: 20px;
+            padding-left: 100px;
+        }
+
+        .arena_address h1{
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        .text{
+            font-size:  30px;
+            margin-top: 10px;
+        }
+
+
+/* サイトマップ */
+.sitemap{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.site_about{
+    display: flex;
+    margin-top: 30px;
+}
+.sitemap h1{
+    margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.sitemenu{
+    padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.siteinfo{
+    padding-right: 100px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.other>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.other{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.sitemap>h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -50px;
+    margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+    display: flex;
+    margin-top: 50px ;
+    background-color: #808080;
+    padding-bottom: 50px;
+}
+
+.footer>.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+

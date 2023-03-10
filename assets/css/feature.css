@@ -1,0 +1,332 @@
+a{color: #1d1d1d;
+    text-decoration: none;}
+    
+    /* ヘッダー */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        padding-left: 600px;
+        padding-right: 433px;
+    }
+    
+    .top-ul>ul{
+        display: flex;
+    }
+    
+    .top-ul{
+        margin-left: 200px;
+    
+    }
+    
+    .top-ul img{
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .top-midleft{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 80px;
+    }
+    
+    .top-ul>ul>li{
+        padding-right: 40px;
+    }
+    
+    .top-left>ul{
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo2{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    
+    /* ヘッダーの次のメニュー */
+    
+    #main-pic>ul{
+        display: flex;
+        justify-content: top;
+        align-items: top;
+        position: fixed;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 125px;
+        z-index: 998;
+        background-color: black;
+        opacity: 0.7;
+    }
+    
+    #main-pic img{
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+    
+    #main-pic>ul>li{
+        border-right: 1px solid #000;
+        text-align: auto;
+    
+    }
+    
+    .menu{
+        display: inline-block;
+        height: 80px;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        width:100%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    
+    .menu img{
+        height: 100%;
+        width: 80%
+    }
+
+     /* レッスントップ */
+     .lesson_top{
+        background-image: url(..//img/studio_all_mix.png);
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: top;
+        align-items: top;
+        flex-direction: column;
+     }
+  
+     .lessontop_text{
+      text-align: center;
+      margin-top: 13%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+     }
+  
+     .lessontop_text h1{
+      color: white;
+      font-size: 50px;
+     }
+     
+     .lessontop_text h2{
+      color: white;
+      font-size: 30px;
+      margin-top: 1%;
+     }
+
+
+    /* スタジオヘッダー下 */
+
+    .studio_header2{
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .studio_page_tab{
+      color: #006ccc;
+    }
+    .schoolFeature_text{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+
+    /* スクールの特徴　メイン */
+    .schoolMainText{
+        margin-top: 50px;
+        padding-top:40px ;
+        padding-left: 150px;
+        padding-bottom: 150px;
+        letter-spacing: 5px;
+        line-height: 30px;
+        font-weight: 550;
+        font-size: 15px;
+    }
+
+    .school_main{
+        margin-top: 50px;
+        display: flex;
+        background-color: #fff2d6;
+    }
+    .schoolMainImg{
+        margin-top: 90px;
+        padding-left: 20px;
+    }
+
+
+
+    .feature1{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #f2f2f2;
+        margin-top: 200px;
+        padding-bottom: 100px;
+    }
+    .fea1_main{
+        display: flex;
+        justify-content: center;
+        background-color: #f2f2f2;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .feature1 img{
+        position: absolute;
+        margin-right: 500px;
+        top: -47px;
+    }
+
+    .feature2{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #f2f2f2;
+        margin-top: 150px;
+        padding-bottom: 100px;
+    }
+    .fea2_main{
+        display: flex;
+        justify-content: center;
+        background-color: #f2f2f2;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .feature2 img{
+        position: absolute;
+        margin-left: 500px;
+        top: -47px;
+    }
+
+    .feature3{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #f2f2f2;
+        margin-top: 150px;
+        padding-bottom: 100px;
+    }
+    .fea3_main{
+        display: flex;
+        justify-content: center;
+        background-color: #f2f2f2;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .feature3 img{
+        position: absolute;
+        margin-right: 500px;
+        top: -47px;
+    }
+
+
+
+
+
+    .feature3{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .feature_interview_pic{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+ 
+    }
+    .school_bottom{
+        margin-top: 300px;
+        background-color: rgb(255, 102, 0);
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 20px;
+    }
+    .int_button{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 32px;
+    }
+
+/* サイトマップ */
+.sitemap{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.site_about{
+    display: flex;
+    margin-top: 30px;
+}
+.sitemap h1{
+    margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.sitemenu{
+    padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.siteinfo{
+    padding-right: 100px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.other>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.other{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.sitemap>h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -50px;
+    margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+    display: flex;
+    margin-top: 50px ;
+    background-color: #808080;
+    padding-bottom: 50px;
+}
+
+.footer>.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+    
+   

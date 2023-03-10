@@ -1,0 +1,661 @@
+a{color: #1d1d1d;
+  text-decoration: none;}
+  
+  /* ヘッダー */
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      z-index: 999;
+      background-color: white;
+      padding-left: 600px;
+      padding-right: 433px;
+  }
+  
+  .top-ul>ul{
+      display: flex;
+  }
+  
+  .top-ul{
+      margin-left: 200px;
+  
+  }
+  
+  .top-ul img{
+      padding-right: 10px;
+      margin-top: 10px;
+  }
+  
+  .top-midleft{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-left: 80px;
+  }
+  
+  .top-ul>ul>li{
+      padding-right: 40px;
+  }
+  
+  .top-left>ul{
+      display:flex;
+      justify-content: flex-end;
+      
+  }
+  .logo{
+      display: flex;
+  }
+  .logo1{
+      display: block;
+      margin: 0 auto;
+  }
+  .logo2{
+      display: block;
+      margin: 0 auto;
+  }
+  
+  
+  
+  /* ヘッダーの次のメニュー */
+  
+  #main-pic>ul{
+      display: flex;
+      justify-content: top;
+      align-items: top;
+      position: fixed;
+      width: 100%;
+      padding-top: 15px;
+      padding-left: 125px;
+      z-index: 998;
+      background-color: black;
+      opacity: 0.7;
+  }
+  
+  #main-pic img{
+      border-right: 1px solid white;
+      border-left: 1px solid white;
+  }
+  
+  #main-pic>ul>li{
+      border-right: 1px solid #000;
+      text-align: auto;
+  
+  }
+  
+  .menu{
+      display: inline-block;
+      height: 80px;
+      margin-bottom: 15px;
+      margin-bottom: 15px;
+      margin-top: 0px;
+      width:100%;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      margin-left: 20px;
+  }
+  
+  .menu img{
+      height: 100%;
+      width: 80%
+  }
+
+    /* レッスントップ */
+    .lesson_top{
+        background-image: url(..//img/studio_all_mix.png);
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: top;
+        align-items: top;
+        flex-direction: column;
+     }
+  
+     .lessontop_text{
+      text-align: center;
+      margin-top: 13%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+     }
+  
+     .lessontop_text h1{
+      color: white;
+      font-size: 50px;
+     }
+     
+     .lessontop_text h2{
+      color: white;
+      font-size: 30px;
+      margin-top: 1%;
+     }
+
+     .all{
+        background-color: #DCDCDC;
+     }
+
+    /* スタジオヘッダー下 */
+
+    .studio_header2{
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .studio_page_tab{
+      color: #006ccc;
+    }
+
+
+    /* タブメニュー */
+    .tab-group{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      .tab{
+        flex-grow: 1;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        list-style:none;
+        color:black;
+        text-align:center;
+        cursor:pointer;
+        background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all  0.3s ease;
+      }
+      .panel-group{
+        height:max-content;
+        background:#DCDCDC;
+      }
+      .panel{
+        display:none;
+      }
+      .tab.is-active{
+        background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+        font-weight: bold;
+        color:white;
+        transition: all 0.2s ease-out;
+      }
+      .tab:hover{
+        background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+        font-weight: bold;
+        color:white;
+
+      }
+
+      .panel.is-show{
+        display:block;
+      }
+
+
+
+      /* デイタイトルバー */
+
+      .day_title h1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin: 20px;
+        margin-top: 50px;
+      }
+
+      /* 月曜日*/
+      .monday>.thirteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.thirteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .monday>.thirteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+      .monday>.fourteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.fourteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .monday>.fourteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+      .monday>.fifteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.fifteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .monday>.fifteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+      
+       .monday>.sixteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.sixteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .monday>.sixteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+
+      .monday>.seventeen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.seventeen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+
+
+      .monday>.eightteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .monday>.eightteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+
+      .jscjr{
+        margin-left: 20px;
+      }
+
+      .msuc{
+        margin-left: 5px;
+      }
+
+      .jsc{
+        margin-left: 20px;
+      }
+
+
+      /* 火曜日 */
+      .tuesday h2{
+        color: #808080;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 200px;
+      }
+
+      /* 水曜日 */
+      .wednesday h2{
+        color: #808080;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 200px;
+      }
+
+      /* 木曜日 */
+      .thursday>.thirteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.thirteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .thursday>.thirteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+      .thursday>.fourteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.fourteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .thursday>.fourteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+      .thursday>.fifteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.fifteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .thursday>.fifteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+      
+       .thursday>.sixteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.sixteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .arena_kids{
+        margin-left: 20px;
+      }
+
+      .thursday>.seventeen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.seventeen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .arena_jr{
+        margin-left: 20px;
+      }
+
+
+      .thursday>.eightteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .thursday>.eightteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .thursday>.eightteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+        /* 金曜日 */
+      .friday h2{
+        color: #808080;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 200px;
+      }
+
+       /* 土曜日 */
+      .saturday h2{
+        color: #808080;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 200px;
+      }
+
+      /* 日曜日 */
+
+      .sunday>.thirteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.thirteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .trybs{
+        margin-left: 20px;
+      }
+
+      .sunday>.fourteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.fourteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .trybs_jr{
+        margin-left: 20px;
+      }
+
+      .sunday>.fifteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.fifteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .sunday>.fifteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+      
+       .sunday>.sixteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.sixteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .sunday>.sixteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+
+      .sunday>.seventeen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.seventeen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .gsuc{
+        margin-left: 20px;
+      }
+
+
+      .sunday>.eightteen{
+        margin-top: 40px;
+        margin-left: 70px;
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .sunday>.eightteen h1{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+      .sunday>.eightteen h2{
+        color: #808080;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 460px;
+      } 
+
+     
+
+
+
+
+
+
+    /* サイトマップ */
+.sitemap{
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.site_about{
+  display: flex;
+  margin-top: 30px;
+}
+.sitemap h1{
+  margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.sitemenu{
+  padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.siteinfo{
+  padding-right: 100px;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.other>ul>li{
+  padding: 5px;
+  font-weight: bold;
+}
+.other{
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.sitemap>h2{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -50px;
+  margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+  display: flex;
+  margin-top: 50px ;
+  background-color: #808080;
+  padding-bottom: 50px;
+}
+
+.footer>.logo{
+  margin-left: 10px;
+  margin-top: 10px;
+}

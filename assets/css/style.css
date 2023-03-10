@@ -1,0 +1,688 @@
+a{color: #1d1d1d;
+text-decoration: none;}
+
+/* ヘッダー */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    padding-left: 600px;
+    padding-right: 433px;
+}
+
+.top-ul>ul{
+    display: flex;
+}
+
+.top-ul{
+    margin-left: 200px;
+
+}
+
+.top-ul img{
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.top-midleft{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.top-ul>ul>li{
+    padding-right: 40px;
+}
+
+.top-left>ul{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.logo{
+    display: flex;
+}
+.logo1{
+    display: block;
+    margin: 0 auto;
+}
+.logo2{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* ヘッダーの次のメニュー */
+
+#main-pic>ul{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 125px;
+    z-index: 998;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#main-pic img{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#main-pic>ul>li{
+    border-right: 1px solid #000;
+    text-align: auto;
+
+}
+
+.menu{
+    display: inline-block;
+    height: 80px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    width:100%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.menu img{
+    height: 100%;
+    width: 80%
+}
+
+
+
+/* メインメニュー */
+.slide{ position: relative; width: 1000px; height: 700px; overflow: hidden; margin: 0 auto;
+}
+.item1, .item2, .item3 { position: absolute; top:0; left:0; width: 100%; height: 100%; background-size: cover; background-repeat: no-repeat;
+}
+.item1{ animation: slide1 20s infinite;
+}
+.item2{ animation: slide2 20s infinite;
+}
+.item3{ animation: slide3 20s infinite;
+}
+@keyframes slide1 { 0% {opacity: 1; transform: scale(1.0);} 20% {opacity: 1;} 30% {opacity: 1;} 40% {opacity: 0; transform: scale(1.1);} 90% {opacity: 0} 100% {opacity: 1; transform: scale(1.0);}
+}
+@keyframes slide2 { 0% {opacity: 0;} 30% {opacity: 0; transform: scale(1.1);} 40% {opacity: 1;} 50% {opacity: 1;} 60% {opacity: 0; transform: scale(1.0);} 100% {opacity: 0;}
+}
+@keyframes slide3 { 0% {opacity: 0;} 50% {opacity: 0; transform: scale(1.0);} 60% {opacity: 1;} 70% {opacity: 1;} 90% {opacity: 0; transform: scale(1.1);} 100% {opacity: 0;}
+}
+
+
+
+
+ /* ニュースのセクション */
+ 
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 300ms;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
+/* ニュースタイトル */
+ .news_title{
+    text-align: center;
+    margin-top: 200px;
+ }
+ .news_title>p{
+    font-size: 20px;
+ }
+ .news_title>h1{
+    font-size: 40px;
+ }
+
+ .news_title>h1{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.news_title>h1:before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: -15px;
+    width: 80px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: orange;
+    border-radius: 2px;
+}
+
+ /* メインパート */
+ .news_main{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+ }
+ .news_title2{
+    font-size: 40px;
+    padding-right: 20px;
+    border-right: 1px solid #000;
+ }
+ .news_title3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+ }
+
+ .news1{
+    margin-left: 300px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #000;
+ }
+ .news2{
+    margin-left: 300px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #000;
+ }
+ .news3{
+    margin-left: 300px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+ }
+
+ .button_line006{
+    margin-left: -570px;
+    margin-top: 30px;
+ }
+
+
+/* LINE006 */
+.button_line006 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.button_line006 a:before,
+.button_line006 a:after {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  content: '';
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));;
+}
+.newsButton{
+    margin-left: 450px;
+}
+
+.button_line006 a:before {
+  top: 0;
+  left: 0;
+}
+
+.button_line006 a:after {
+  right: 0;
+  bottom: 0;
+}
+
+.button_line006 a:hover:before,
+.button_line006 a:hover:after {
+  width: 0;
+}
+
+
+ .news-topics{
+    margin-right: 100px;
+ }
+
+ /* ニュースサイドパート */
+
+.news-schedule{
+    text-align: center;
+    margin-right: 100px;
+}
+.news-schedule{
+    padding: 10px;
+    padding-top: 10px;
+}
+.news-detail-top{
+    display: flex;
+}
+ 
+
+
+
+
+/* メンバープロフィール タイトル */
+.member-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.member-title>p{
+    font-size: 20px;
+}
+.member-title>h1{
+    font-size: 40px;
+}
+
+.member-title>h1{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.member-title>h1:before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: -15px;
+    width: 150px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: orange;
+    border-radius: 2px;
+}
+
+/* メンバーメインパート */
+.member-main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 150px;
+    padding-bottom: 350px;
+}
+.member-graph{
+    position: absolute;
+    top: -100px;
+    margin-right: 900px;
+}
+
+.member-graph1{
+    position: absolute;
+    top: -100px;
+}
+
+.member-graph2{
+    position: absolute;
+    top: -100px;
+    margin-left: 900px;
+}
+
+
+
+/* 料金、質問バナー */
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+    margin-top: 100px;
+    padding: 100px;
+}
+#lesson_banner{
+    margin-right: 300px;
+}
+
+.button017 a {
+    background: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 40px 80px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    transform: skew(-10deg, 0deg);
+}
+.button017 a span {
+    transform: skewX(10deg);
+}
+.button017 a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    right: -1em;
+    transform: translateY(calc(-50% - 2px)) rotate(30deg);
+    width: 12px;
+    height: 2px;
+    background-color:#FF4D4D;
+    transition: 0.3s;
+}
+.button017 a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -1em;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #FF4D4D;
+    transition: 0.3s;
+}
+.button017 a:hover:before, .button017 a:hover:after {
+    right: -1.2em;
+}
+.button017 a:hover {
+    background: linear-gradient(90deg, rgba(247, 93, 139, 1) 62%, rgba(254, 220, 64, 1));
+    color: white;
+}
+
+
+
+
+
+
+
+/* インタビュー */
+
+.int-header{
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #fedcbd;
+    padding: 100px;
+    padding-top: 100px;
+ }
+ .int-title>p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ .int-title>h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+ }
+ .int-main{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .int_all{
+    margin-top: 100px;
+    padding-bottom: 0px;
+ }
+
+
+ /* 016 */
+.button016 a {
+    background: linear-gradient(90deg, rgba(115, 248, 224, 1), rgba(150, 167, 241, 1));;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 20px 40px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    transform: skew(-10deg, 0deg);
+}
+.button016 a span {
+    transform: skewX(10deg);
+}
+.button016 a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    right: -1em;
+    transform: translateY(calc(-50% - 2px)) rotate(30deg);
+    width: 12px;
+    height: 2px;
+    background-color: #6bb6ff;
+    transition: 0.3s;
+}
+.button016 a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -1em;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #6bb6ff;
+    transition: 0.3s;
+}
+.button016 a:hover:before, .button016 a:hover:after {
+    right: -1.2em;
+}
+.button016 a:hover {
+    background: radial-gradient(circle, rgba(58, 99, 255, 1), rgba(42, 179, 252, 1) 90%);;
+    color: white;
+}
+
+
+ /* レッスン内容・入会の流れ */
+.lesson{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.content_lesson{
+    text-align: center;
+}
+.document{
+    text-align: center;
+}
+
+.content_lesson>h1{
+    margin: 20px;
+    font-size: 35px;
+    color: white;
+}
+.content_lesson{
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: #DCDCDC;
+}
+.content_lesson img{
+    text-align: center;
+}
+
+.document>h1{
+    margin: 20px;
+    font-size: 35px;
+    color: white;
+}
+.document{
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: #DCDCDC;
+}
+.document img{
+    text-align: center;
+}
+
+.banner2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    margin-right: 120px;
+}
+
+/* LINE007 */
+.button_line007 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.button_line007 a:before,
+.button_line007 a:after {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  content: '';
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background: linear-gradient(90deg, rgba(89, 173, 241, 1), rgba(207, 253, 157, 1));
+}
+
+
+.button_line007 a:before {
+  top: 0;
+  left: 0;
+}
+
+.button_line007 a:after {
+  right: 0;
+  bottom: 0;
+}
+
+.button_line007 a:hover:before,
+.button_line007 a:hover:after {
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ダンスジャンル */
+.genre-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.genre-header{
+    margin-top: 100px;
+}
+.genre-title>p{
+    font-size: 20px;
+}
+.genre-title>h1{
+    font-size: 40px;
+}
+
+.genre-title>h1{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.genre-title>h1:before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: -15px;
+    width: 150px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: orange;
+    border-radius: 2px;
+}
+
+
+.genre-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* サイトマップ */
+.sitemap{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.site_about{
+    display: flex;
+    margin-top: 30px;
+}
+.sitemap h1{
+    margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.sitemenu{
+    padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.siteinfo{
+    padding-right: 100px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.other>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.other{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.sitemap>h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -50px;
+    margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+    display: flex;
+    margin-top: 50px ;
+    background-color: #808080;
+    padding-bottom: 50px;
+}
+
+.footer>.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}

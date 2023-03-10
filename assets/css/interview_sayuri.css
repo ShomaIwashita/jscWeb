@@ -1,0 +1,290 @@
+a{color: #1d1d1d;
+    text-decoration: none;}
+    
+    /* ヘッダー */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        padding-left: 600px;
+        padding-right: 433px;
+    }
+    
+    .top-ul>ul{
+        display: flex;
+    }
+    
+    .top-ul{
+        margin-left: 200px;
+    
+    }
+    
+    .top-ul img{
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .top-midleft{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 80px;
+    }
+    
+    .top-ul>ul>li{
+        padding-right: 40px;
+    }
+    
+    .top-left>ul{
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo2{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    
+    /* ヘッダーの次のメニュー */
+    
+    #main-pic>ul{
+        display: flex;
+        justify-content: top;
+        align-items: top;
+        position: fixed;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 125px;
+        z-index: 998;
+        background-color: black;
+        opacity: 0.7;
+    }
+    
+    #main-pic img{
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+    
+    #main-pic>ul>li{
+        border-right: 1px solid #000;
+        text-align: auto;
+    
+    }
+    
+    .menu{
+        display: inline-block;
+        height: 80px;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        width:100%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    
+    .menu img{
+        height: 100%;
+        width: 80%
+    }
+
+    .lesson_top{
+    background-image: url(..//img/interview_top.png);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+    }
+
+ .lessontop_text{
+  text-align: center;
+  margin-top: 15%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+ }
+
+ .lessontop_text h1{
+  color: white;
+  font-size: 50px;
+ }
+ 
+ .lessontop_text h2{
+  color: white;
+  font-size: 30px;
+  margin-top: 1%;
+ }
+
+      .money_header2{
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .top_page_tab{
+      color: #006ccc;
+    }
+
+
+
+    .shoma_top{
+        background-color: #a9a9a9;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 250px;
+        padding-bottom: 0px;
+    }
+    .shoma_top>.shoma_logo{
+        position: absolute;
+        top: -200px;
+        margin-right: 900px;
+    }
+
+    .shoma_tab{
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+
+
+    .shoma_main1{
+        background-color: #DCDCDC;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 400px;
+        margin-right: 130px;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .shoma_main1>.q1{
+        position: absolute;
+        top: -30px;
+        margin-right: 700px;
+    }
+    .shoma_main1 p{
+        font-size: 35px;
+    }
+
+    .shoma_main2{
+        background-color: #DCDCDC;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 400px;
+        margin-right: 130px;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .shoma_main2>.q2{
+        position: absolute;
+        top: -30px;
+        margin-right: 700px;
+    }
+    .shoma_main2 p{
+        font-size: 35px;
+    }
+
+    .shoma_main3{
+        background-color: #DCDCDC;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 400px;
+        margin-right: 130px;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .shoma_main3>.q3{
+        position: absolute;
+        top: -30px;
+        margin-right: 700px;
+    }
+    .shoma_main3 p{
+        font-size: 35px;
+    }
+
+    /* サイトマップ */
+.sitemap{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.site_about{
+    display: flex;
+    margin-top: 30px;
+}
+.sitemap h1{
+    margin-bottom: 20px;
+}
+.sitemenu>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.sitemenu{
+    padding-right: 100px;
+}
+
+.siteinfo>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.siteinfo{
+    padding-right: 100px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.other>ul>li{
+    padding: 5px;
+    font-weight: bold;
+}
+.other{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.sitemap>h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -50px;
+    margin-right: 35px;
+}
+
+/* フッダー */
+.footer{
+    display: flex;
+    margin-top: 50px ;
+    background-color: #808080;
+    padding-bottom: 50px;
+}
+
+.footer>.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
